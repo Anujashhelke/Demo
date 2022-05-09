@@ -1,0 +1,10 @@
+pipeline{
+    agent{label 'windows'}
+    stages{
+        stage('hello from github'){
+            steps{
+                echo "hello world"
+            }
+        }
+    }
+}
