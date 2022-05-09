@@ -1,9 +1,29 @@
 pipeline{
     agent{label 'windows'}
+    tools{
+        maven 'M2'
+    }
     stages{
-        stage('hello from github'){
+        stage('checkout'){
             steps{
-                echo "hello world"
+               git' https://github.com/Anujashhelke/Demo.git'
+            }
+        }
+        stage('build'){
+            steps{
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Test'){
+            steps{
+                sh 'mvn test'
+                junit '**/target/surefire-report/Test-*.xml'
+            }
+
+        }
+        stage('package'){
+            steps{
+                sh 'mvn package'
             }
         }
     }
