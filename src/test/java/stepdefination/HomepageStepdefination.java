@@ -13,11 +13,12 @@ import bddFrameUtility.ConfigRead;
 import bddFrameUtility.ExtentReport;
 import bddFrameUtility.Logs;
 import bddframePageobject.Homepage;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import io.cucumber.junit.Cucumber;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import cucumber.api.junit.Cucumber;
+
 
 @RunWith(Cucumber.class)
 public class HomepageStepdefination extends BaseClass {
@@ -30,11 +31,11 @@ public class HomepageStepdefination extends BaseClass {
   
 	@Given("^user is on home page$")
 	public void user_is_on_home_page() {
-	    extent=new ExtentReport();
+	  extent=new ExtentReport();
 		read=new ConfigRead();
 		
 			// TODO Auto-generated catch bloc
-		  //  extent.createReport();
+		  //extent. createReport();
 		    driver=BaseClass.setUp();
 					driver.get(read.getUrl());
 	    extent.createReport(getClass().getName());
@@ -42,35 +43,50 @@ public class HomepageStepdefination extends BaseClass {
 	  extent.logPass("browser launched successfully");
 	   
 	}
-	@When("^user hover on more products$")
-	public void user_hover_on_more_products() {
-		h.hover();
-		extent.logPass("hover successfully");
-	   
-	}
-	@And("^click on kids brushes$")
-	public void click_on_kids_brushes() throws InterruptedException {
+	@When("^user clicked on search icon$")
+	public void user_clicked_on_search_icon() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		
+		
 		Thread.sleep(3000);
-	   h.clickOnKidsBrush();
-	   extent.logPass("clicked successfully");
+		h.clickOnSearch();
+		Thread.sleep(3000);
+		
 	}
-	@Then("^text Kids displayed in second brush in list$")
-	public void text_kids_displayed_in_second_brush_in_list() throws InterruptedException {
+
+	@When("^sended the text$")
+	public void sended_the_text() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		h.sendText();
 		Thread.sleep(3000);
-	   h.verifyText();
-	   extent.logFail("failed to display brush in list");
-	
+	}
+
+	@Then("^user navigated to next page$")
+	public void user_navigated_to_next_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		h.clickOnEnter();
+		Thread.sleep(3000);
 	    
 	}
-	@And("^close the driver$")
-	public void close_the_driver() throws IOException {
-		BaseClass.close();
-		extent.logPass("closed successfully");
+	@And("^popup closed if any$")
+	public void popup_closed_if_any() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		h.closePopup();
+		Thread.sleep(3000);
+		
 	}
 
+	@And("^text is verified$")
+	public void text_is_verified() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		h.verifyProduct();
+		
+	}
+	
 
+
+	
 
 	
 }

@@ -1,0 +1,38 @@
+2022-05-17 16:37:06.296 [INFO ] [main] Logs - successfully clicked
+2022-05-17 16:37:09.544 [INFO ] [main] Logs - successfully closed
+2022-05-17 16:37:17.213 [INFO ] [main] Logs - successfully clicked
+2022-05-17 16:37:18.171 [INFO ] [main] Logs - entered successfully
+2022-05-17 16:37:21.233 [INFO ] [main] Logs - successfully got
+2022-05-17 16:37:21.415 [INFO ] [main] Logs - successfully hovered
+2022-05-17 16:37:23.795 [INFO ] [main] Logs - successfully checked
+2022-05-17 16:37:25.885 [INFO ] [main] Logs - successfully got
+2022-05-17 16:37:29.782 [INFO ] [main] Logs - successfully entered
+2022-05-17 16:37:31.996 [INFO ] [main] Logs - successfully clicked
+2022-05-17 16:37:50.330 [INFO ] [main] Logs - clicked successfully
+2022-05-17 16:37:50.517 [INFO ] [main] Logs - hovered successfully
+2022-05-17 16:37:50.983 [INFO ] [main] Logs - choosed successfully
+2022-05-17 16:37:53.467 [INFO ] [main] Logs - clicked
+2022-05-17 16:38:34.903 [INFO ] [main] Logs - clicked successfully
+2022-05-17 16:38:35.108 [INFO ] [main] Logs - hovered successfully
+2022-05-17 16:38:35.595 [INFO ] [main] Logs - choosed successfully
+2022-05-17 16:38:38.438 [INFO ] [main] Logs - clicked
+2022-05-17 16:39:12.128 [INFO ] [main] Logs - clicked successfully
+2022-05-17 16:39:13.741 [DEBUG] [main] Logs - clicked  successfully
+2022-05-17 16:40:11.341 [INFO ] [main] Logs - hover successfully
+2022-05-17 16:40:16.470 [INFO ] [main] Logs - clicked successfully
+2022-05-17 16:40:19.383 [INFO ] [main] Logs - closed successfully
+2022-05-17 16:40:19.811 [INFO ] [main] Logs - hovered successfully
+2022-05-17 16:40:24.517 [INFO ] [main] Logs - addedd on cart successfully
+2022-05-17 16:40:27.953 [INFO ] [main] Logs - added successfully
+2022-05-17 16:40:32.618 [INFO ] [main] Logs - quantity selected successfully
+2022-05-17 16:40:32.700 [INFO ] [main] Logs - text got successfully
+2022-05-17 16:40:33.033 [INFO ] [main] Logs - checkout successfully
+2022-05-17 16:40:58.534 [DEBUG] [main] Logs - clicked successfully
+2022-05-17 16:40:58.627 [DEBUG] [main] Logs - verified text
+2022-05-17 16:41:00.773 [DEBUG] [main] Logs - clicked on customer stories
+2022-05-17 16:41:00.850 [DEBUG] [main] Logs - successfully got customer response
+2022-05-17 16:41:33.708 [DEBUG] [main] Logs - clicked successfully
+2022-05-17 16:41:36.973 [DEBUG] [main] Logs - text sended successfully
+2022-05-17 16:41:46.448 [INFO ] [main] Logs - entered successfully
+2022-05-17 16:41:49.866 [DEBUG] [main] Logs - popup closed successfully
+2022-05-17 16:42:53.397 [DEBUG] [main] Logs - popup closed successfully

@@ -1,19 +1,25 @@
 package runner;
 
-import org.junit.runner.RunWith;
+import java.io.File;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import io.cucumber.testng.AbstractTestNGCucumberTests;
+import org.junit.AfterClass;
+import org.junit.runner.RunWith;
+import org.testng.Reporter;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features={"C:\\Users\\Shree\\eclipse-workspace\\Cucumber\\Feature"},
-		glue={"stepdefination", "hooks"},
-		plugin={"pretty"},
+		features={"C:\\Users\\Shree\\eclipse-workspace\\CucumberFramework\\Feature"},
+		glue={"stepdefination"},
+	 
+		plugin={"pretty","html:reports/rp.html"},
 		monochrome=true,
-		dryRun=false)
-public class TestRunner extends AbstractTestNGCucumberTests {
-
+		dryRun=true)
+public class TestRunner {
+	//ExtentReport extent=new ExtentRepot();
+	
 }
 	
