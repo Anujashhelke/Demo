@@ -41,7 +41,8 @@ public class ApplyNowStepDefination {
 	@Then("^application page verified$")
 	public void application_page_verified() throws Throwable {
 	    System.out.println("ApplyNowStepDefination.application_page_verified()");
-	   
+	    
 	}
+	
 
 }

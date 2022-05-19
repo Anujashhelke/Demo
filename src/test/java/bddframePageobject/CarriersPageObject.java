@@ -93,5 +93,9 @@ public class CarriersPageObject{
 		log.info("successfully clicked");
 		
 	}
+	public void close() {
+		driver.close();
+		
+	}
 
 }

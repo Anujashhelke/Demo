@@ -14,6 +14,7 @@ And user fill details "<recei_name>" ,"<customer_name>" ,"<Custmer_mail>" , "<re
 And clicks on confirm
 Then filled details successfully
 
+
 Examples:
 | recei_name | customer_name | Customer_mail | receipnt_mail | customer_phone |
 | avni | anuja | avni@gmail.com | monu@gmail.com | 8790654367 |

@@ -49,5 +49,9 @@ public class HelpCenter {
 		helper.getText(HelpCentre.text);
 		log.info("got successfully");
 	}
+	public void close() {
+		driver.close();
+		
+	}
 
 }

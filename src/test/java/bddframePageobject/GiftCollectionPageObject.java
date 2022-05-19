@@ -93,5 +93,9 @@ public class GiftCollectionPageObject {
 		log.info("title got successfully");
 		
 	}
+	public void close() {
+		driver.close();
+		
+	}
 
 }

@@ -12,6 +12,7 @@ import bddFrameUtility.BaseClass;
 import bddFrameUtility.ConfigRead;
 import bddFrameUtility.ExtentReport;
 import bddFrameUtility.Logs;
+import bddFrameUtility.Snapshot;
 import bddframePageobject.Homepage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -28,17 +29,21 @@ public class HomepageStepdefination extends BaseClass {
 	Logger log;
 	Homepage h=new Homepage();
 	ConfigRead read;
+	Snapshot snap;
+	String path;
   
 	@Given("^user is on home page$")
 	public void user_is_on_home_page() {
 	  extent=new ExtentReport();
 		read=new ConfigRead();
 		
+		
 			// TODO Auto-generated catch bloc
 		  //extent. createReport();
 		    driver=BaseClass.setUp();
 					driver.get(read.getUrl());
 	    extent.createReport(getClass().getName());
+	    snap=new Snapshot(driver);
 	  extent.createTest("verify product");
 	  extent.logPass("browser launched successfully");
 	   
@@ -48,7 +53,7 @@ public class HomepageStepdefination extends BaseClass {
 	    // Write code here that turns the phrase above into concrete actions
 		
 		
-		Thread.sleep(3000);
+		
 		h.clickOnSearch();
 		Thread.sleep(3000);
 		
@@ -81,8 +86,12 @@ public class HomepageStepdefination extends BaseClass {
 	public void text_is_verified() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		h.verifyProduct();
+		path=snap.takeSnapshot();
+		extent.logPass(path);
+		
 		
 	}
+	
 	
 
 

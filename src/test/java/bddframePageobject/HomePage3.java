@@ -67,6 +67,10 @@ public class HomePage3 {
 		log.debug("successfully got customer response");
 		
 	}
+	public void close() {
+		driver.close();
+		
+	}
 	
 
 }

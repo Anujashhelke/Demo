@@ -71,6 +71,10 @@ public class LoginPage {
 				log.info("got successfully");
 				
 			}
+			public void close() {
+				driver.close();
+				
+			}
 	}
 
 

@@ -2,7 +2,11 @@ package stepdefination;
 
 import java.util.ArrayList;
 
+import org.openqa.selenium.WebDriver;
+
 import bddFrameUtility.ExcelRead;
+import bddFrameUtility.ExtentReport;
+import bddFrameUtility.Snapshot;
 import bddframePageobject.LoginPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
@@ -11,7 +15,11 @@ import cucumber.api.java.en.When;
 
 public class LoginStepDefination {
 	ExcelRead excel;
+	WebDriver driver;
+	String path;
 	LoginPage l=new LoginPage();
+	ExtentReport extent=new ExtentReport();
+	Snapshot snap=new Snapshot(driver);
 @When("^user hovers on login$")
 public void user_hovers_on_login() throws Throwable {
 	l.hover();
@@ -21,10 +29,13 @@ public void user_hovers_on_login() throws Throwable {
 @And("^clicks on Login$")
 public void clicks_on_Login() throws Throwable {
 	l.login();
+	path=snap.takeSnapshot();
+	extent.logFail(path);
 }
 
 @Then("^Login window popup$")
 public void login_window_popup() throws Throwable {
+	System.out.println("poped up");
 	
 }
 

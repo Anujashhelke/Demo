@@ -16,12 +16,13 @@ public class ExtentReport {
 		public static ExtentTest test;
 		public String timeStamp;
 		
-		public void createReport(String string) {
+		public  void createReport(String string) {
 			timeStamp="./reports";
 			Date d=new Date();
 			String date=new SimpleDateFormat("MM-dd-yy-HH-mm-ss").format(d);
 			extent=new ExtentReports(System.getProperty("user.dir")+"./reports/rp"+date+".html",true);
 			test=extent.startTest("start test");
+			//return extent;
 		}
 		
 		public void createTest(String Testname) {
@@ -39,7 +40,7 @@ public class ExtentReport {
 			test.addScreenCapture(text);
 		}
 		
-		public void endReport() {
+		public  void endReport() {
 			extent.endTest(test);	
 			extent.flush();
 			extent.close();

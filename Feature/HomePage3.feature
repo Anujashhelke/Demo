@@ -7,4 +7,5 @@ When user click on link
 And verifies the text "TERMS OF SHIPPING AND DELIVERY"
 And clicks on stories
 Then successfully got the response
+And close the driver
 

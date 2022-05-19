@@ -127,5 +127,9 @@ public void enteraddress(String arg6) {
 	helper.sentText(Home2Ui.address, arg6);
 	
 }
+public void close() {
+	driver.close();
+	
+}
 
 }

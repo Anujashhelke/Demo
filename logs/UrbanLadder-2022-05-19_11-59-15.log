@@ -1,0 +1,55 @@
+2022-05-19 12:00:08.533 [INFO ] [main] Logs - successfully clicked
+2022-05-19 12:00:11.932 [INFO ] [main] Logs - successfully closed
+2022-05-19 12:00:18.511 [INFO ] [main] Logs - successfully clicked
+2022-05-19 12:00:23.747 [INFO ] [main] Logs - entered successfully
+2022-05-19 12:00:26.854 [INFO ] [main] Logs - successfully got
+2022-05-19 12:00:27.305 [INFO ] [main] Logs - successfully hovered
+2022-05-19 12:00:29.532 [INFO ] [main] Logs - successfully checked
+2022-05-19 12:00:31.760 [INFO ] [main] Logs - successfully got
+2022-05-19 12:00:40.070 [INFO ] [main] Logs - successfully entered
+2022-05-19 12:00:42.368 [INFO ] [main] Logs - successfully clicked
+2022-05-19 12:02:13.600 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:02:13.809 [INFO ] [main] Logs - hovered successfully
+2022-05-19 12:02:13.954 [INFO ] [main] Logs - choosed successfully
+2022-05-19 12:02:14.063 [INFO ] [main] Logs - got successfully
+2022-05-19 12:02:15.178 [INFO ] [main] Logs - selected successfully
+2022-05-19 12:02:15.355 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:02:15.432 [INFO ] [main] Logs - title got successfully
+2022-05-19 12:02:15.811 [INFO ] [main] Logs - entered receipnt name
+2022-05-19 12:02:16.057 [INFO ] [main] Logs - entered receipnt mail
+2022-05-19 12:02:16.426 [INFO ] [main] Logs - entered customer name
+2022-05-19 12:02:16.786 [INFO ] [main] Logs - entered customer mail
+2022-05-19 12:02:17.054 [INFO ] [main] Logs - entered phone no
+2022-05-19 12:02:17.109 [INFO ] [main] Logs - clicked
+2022-05-19 12:02:49.216 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:02:51.478 [DEBUG] [main] Logs - clicked  successfully
+2022-05-19 12:02:51.593 [INFO ] [main] Logs - got successfully
+2022-05-19 12:03:20.371 [INFO ] [main] Logs - hover successfully
+2022-05-19 12:03:26.716 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:03:29.262 [INFO ] [main] Logs - closed successfully
+2022-05-19 12:03:29.514 [INFO ] [main] Logs - hovered successfully
+2022-05-19 12:03:37.840 [INFO ] [main] Logs - addedd on cart successfully
+2022-05-19 12:03:44.661 [INFO ] [main] Logs - added successfully
+2022-05-19 12:03:50.293 [INFO ] [main] Logs - quantity selected successfully
+2022-05-19 12:03:50.808 [INFO ] [main] Logs - text got successfully
+2022-05-19 12:03:51.063 [INFO ] [main] Logs - checkout successfully
+2022-05-19 12:03:57.350 [INFO ] [main] Logs - checkout successfully
+2022-05-19 12:03:57.507 [INFO ] [main] Logs - sent successfully
+2022-05-19 12:03:57.710 [INFO ] [main] Logs - sent successfully
+2022-05-19 12:03:57.838 [INFO ] [main] Logs - sent successfully
+2022-05-19 12:03:57.959 [INFO ] [main] Logs - sent successfully
+2022-05-19 12:04:42.014 [DEBUG] [main] Logs - clicked successfully
+2022-05-19 12:04:42.094 [DEBUG] [main] Logs - verified text
+2022-05-19 12:04:48.095 [DEBUG] [main] Logs - clicked on customer stories
+2022-05-19 12:04:48.217 [DEBUG] [main] Logs - successfully got customer response
+2022-05-19 12:05:59.418 [INFO ] [main] Logs - hovered successfully
+2022-05-19 12:06:00.194 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:07:02.285 [INFO ] [main] Logs - hovered successfully
+2022-05-19 12:07:13.398 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:07:13.666 [DEBUG] [main] Logs - popup closed successfully
+2022-05-19 12:07:13.666 [INFO ] [main] Logs - closed successfully
+2022-05-19 12:07:14.557 [INFO ] [main] Logs - hovered successfully
+2022-05-19 12:07:14.973 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:07:17.172 [INFO ] [main] Logs - got successfully
+2022-05-19 12:08:58.550 [INFO ] [main] Logs - clicked successfully
+2022-05-19 12:09:14.513 [INFO ] [main] Logs - clicked successfully

@@ -11,6 +11,7 @@ And clicks on submit
 Then error massage displayed
 And try to click on submit with empty fields
 Then displays fields are mandatory
+And close the driver
 
 
 

@@ -12,6 +12,7 @@ Then user get price of product
 And user clicks on Checkout
 And user add the details "<username>" and "<phone>" , "<pin>" , "<fname>" , "<lname>" , "<address>"
 Then product addedd successfully
+And close the driver
 
 Examples:
 | username | phone | pin | fname | lname | address |

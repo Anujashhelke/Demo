@@ -74,8 +74,8 @@ import bddFrameUtility.Logs;
 
 
 					public void getdimension(String string) {
-						helper.explicitWaitOfvisibilityOfElementLocated(DecorUi.dimensions, 50);
-					helper.getText(DecorUi.dimensions);
+						//helper.explicitWaitOfvisibilityOfElementLocated(DecorUi.dimensions, 50);
+					helper.getPageSource(string);
 					log.info("got successfully");
 						
 					}
@@ -85,6 +85,10 @@ import bddFrameUtility.Logs;
 						
 					
 				}
+					public void close() {
+						driver.close();
+						
+					}
 					
 	}
 

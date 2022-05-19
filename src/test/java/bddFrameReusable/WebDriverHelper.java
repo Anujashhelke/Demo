@@ -162,6 +162,15 @@ public void click(By popUp) {
 		driver.getTitle();
 		
 	}
+
+	public void getPageSource(String string) {
+		if(driver.getPageSource().contains(string)) {
+			System.out.println("text is present"+string);
+		}
+		
+	}
+
+	
 		
 	}
 

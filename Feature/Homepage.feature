@@ -7,4 +7,5 @@ Feature: Application Verification
 	Then user navigated to next page
 	And popup closed if any
 	And text is verified
+	
 		

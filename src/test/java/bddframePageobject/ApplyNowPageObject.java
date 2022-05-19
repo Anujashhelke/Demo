@@ -39,6 +39,10 @@ public void clickOnApply2() {
 	log.info("clicked successfully");
 	
 }
+public void close() {
+	driver.close();
+	
+}
 
 
 }

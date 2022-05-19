@@ -10,6 +10,6 @@ public class DecorUi {
     public static By recommended=By.xpath("//div[@class='sort-box']//div[@class='gname']");
     public static By New=By.xpath("//ul[@class='sortoptions']/descendant::li[contains(text(),'New Arrivals')]");
     public static By mat=By.xpath("//div[@class='category_section doormats page-module']//ul//li[4]");
-    public static By dimensions=By.xpath("//div[@id='product-show']//h1");
+   // public static By dimensions=By.xpath("//div[@id='product-show']//h1");
     public static By popup=By.xpath("//div[@class='vert-container'] //a[contains(text(),'Close')]");
 }

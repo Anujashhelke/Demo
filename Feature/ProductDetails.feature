@@ -8,6 +8,7 @@
 	And hovers on recommended item list
 	And click on product
 	Then user got dimension of product
+	And close the driver
 	
 	
 	

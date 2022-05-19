@@ -82,5 +82,9 @@ public class Homepage {
 		log.info("verified successfully");
 		
 	}
+	public void close() {
+		driver.close();
+		
+	}
 
 }

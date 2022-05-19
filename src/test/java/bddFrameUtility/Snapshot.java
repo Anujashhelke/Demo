@@ -15,8 +15,8 @@ public class Snapshot {
 
 
 		WebDriver driver;
-		public Snapshot(WebDriver driver2) {
-			this.driver=driver2;
+		public Snapshot(WebDriver driver) {
+			this.driver=driver;
 		}
 		public String takeSnapshot() throws IOException {
 			TakesScreenshot sshot=(TakesScreenshot)driver;
